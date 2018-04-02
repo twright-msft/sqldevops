@@ -24,7 +24,7 @@ az aks create -g trainingRG \
 #     --node-count 5 \
 
 #install the command line tools if you dont already have kubectl
-az aks install-cli
+#az aks install-cli
 
 #get the credentials to access the Kubernetes cluster
 az aks get-credentials \
